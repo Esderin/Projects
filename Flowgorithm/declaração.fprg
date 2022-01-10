@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Eder Muller"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-25 09:26:43 "/>
+        <attribute name="created" value="RWRlciBNdWxsZXI7Uk9CU09NOzIwMjEtMTItMjU7IjA5OjA1OjMwICI7MjY5NA=="/>
+        <attribute name="edited" value="RWRlciBNdWxsZXI7Uk9CU09NOzIwMjEtMTItMjU7IjA5OjI2OjQzICI7MTsyODA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="data" type="Real" array="False" size=""/>
+            <declare name="namoro" type="Boolean" array="False" size=""/>
+            <output expression="&quot;Oi, bom dia, qual o seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;interessante, seu nome &#233; &quot; &amp; nome" newline="True"/>
+            <output expression="nome &amp; &quot; voc&#234; namora?&quot;" newline="True"/>
+            <input variable="namoro"/>
+            <if expression="namoro">
+                <then>
+                    <output expression="&quot;legal, e quando voc&#234; come&#231;ou a namorar?&quot; &amp; &quot;(escreva a data sem pontos ou barras)&quot;" newline="True"/>
+                    <input variable="data"/>
+                    <if expression="data&gt;=1306">
+                        <then>
+                            <output expression="nome &amp; &quot; eu te amo tantoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo, voc&#234; &#233; mto especial&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;o programa n&#227;o &#233; para voc&#234;, sorry&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;um dia tu consegue &quot; &amp; nome" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

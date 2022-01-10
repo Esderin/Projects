@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Eder Muller"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-23 05:43:39 "/>
+        <attribute name="created" value="RWRlciBNdWxsZXI7Uk9CU09NOzIwMjEtMTItMjM7IjAzOjU3OjI4ICI7MjcwMA=="/>
+        <attribute name="edited" value="RWRlciBNdWxsZXI7Uk9CU09NOzIwMjEtMTItMjM7IjA1OjQzOjM5ICI7MzsyODA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <output expression="&quot;Bom dia, qual seu nome?&quot;" newline="True"/>
+            <input variable="cliente"/>
+            <output expression="&quot;tem cart&#227;o de cr&#233;dito? &quot; &amp; cliente" newline="True"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <output expression="&quot;Qual o n&#250;mero do cart&#227;o + os numerozinhos atr&#225;s + o vencimento? + a senha?&quot;" newline="True"/>
+                    <input variable="numero"/>
+                    <output expression="&quot;roubei kkkkkkkkkkkkkkkkk&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;se liga seu man&#233;, assim tu n&#227;o vai poder comprar nessa porra&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Eder Muller"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-23 03:54:30 "/>
+        <attribute name="created" value="RWRlciBNdWxsZXI7Uk9CU09NOzIwMjEtMTItMjM7IjAzOjQ1OjU5ICI7MjcwMQ=="/>
+        <attribute name="edited" value="RWRlciBNdWxsZXI7Uk9CU09NOzIwMjEtMTItMjM7IjAzOjU0OjMwICI7MTsyNzk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Real" array="False" size=""/>
+            <assign variable="A" expression="1"/>
+            <assign variable="B" expression="1"/>
+            <assign variable="C" expression="3"/>
+            <output expression="A==B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

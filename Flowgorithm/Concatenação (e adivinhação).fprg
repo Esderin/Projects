@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Eder Muller"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-23 05:58:49 "/>
+        <attribute name="created" value="RWRlciBNdWxsZXI7Uk9CU09NOzIwMjEtMTItMjM7IjA1OjM4OjQ5ICI7MjcwNA=="/>
+        <attribute name="edited" value="RWRlciBNdWxsZXI7Uk9CU09NOzIwMjEtMTItMjM7IjA1OjU4OjQ5ICI7MjsyODE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vou adivinhar teu nome completo e tua idade&quot;" newline="True"/>
+            <output expression="&quot;Qual seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual teu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Qual tua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;O teu nome &#233; &quot; &amp; nome &amp; &quot; &quot; &amp; sobrenome &amp; &quot; tua idade &#233; &quot; &amp; idade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
